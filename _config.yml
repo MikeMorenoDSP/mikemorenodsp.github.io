@@ -17,9 +17,7 @@ title: Mike Moreno DSP
 subtitle: Audio Programming & Sound Design
 email: mikemorenodsp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Audio programming, Sound Design & Synthesis.
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: dark
@@ -62,13 +60,14 @@ author:
   name   : "Miguel Moreno"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Audio Programmer, Sound Design & Educator."
+  email: mikemorenodsp@gmail.com
   links:
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://youtube.com/c/MikeMorenoDSP"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MikeMorenoDSP"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/c/MikeMorenoDSP"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/mikemorenodsp"
@@ -81,12 +80,12 @@ author:
 
 footer:
   links:
-    - label: "YouTube"
-      icon: "fab fa-fw fa-youtube"
-      url: "https://youtube.com/c/MikeMorenoDSP"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/MikeMorenoDSP"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/c/MikeMorenoDSP"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/mikemorenodsp"
