@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mike Moreno DSP
-email:
+subtitle: Audio Programming & Sound Design
+email: mikemorenodsp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -60,26 +61,46 @@ plugins:
 author:
   name   : "Miguel Moreno"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Audio Programmer, Sound Design & Educator."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/c/MikeMorenoDSP"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/MikeMorenoDSP"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/mikemorenodsp"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/aNd8RrT"
+    - label: "Linktree"
+      icon: "fas fa-fw fa-link"
+      url: "https://linktr.ee/MikeMorenoDSP"
 
 footer:
   links:
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/c/MikeMorenoDSP"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/MikeMorenoDSP"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/mikemorenodsp"
+    - label: "Discord"
+      icon: "fab fa-fw fa-discord"
+      url: "https://discord.gg/aNd8RrT"
+    - label: "Linktree"
+      icon: "fas fa-fw fa-link"
+      url: "https://linktr.ee/MikeMorenoDSP"
+
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 defaults:
   # _posts
@@ -88,11 +109,11 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: true
-      share: true
-      related: true
+      share: false
+      related: false
   # _pages
   - scope:
       path: "_pages"
@@ -100,6 +121,14 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: false
 
 category_archive:
   type: liquid
