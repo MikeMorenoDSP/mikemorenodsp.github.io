@@ -1,0 +1,55 @@
+#N canvas 644 64 758 603 12;
+#X floatatom 180 80 5 0 135 1 MIDI - - 0;
+#X obj 180 108 mtof;
+#X floatatom 180 137 8 0 0 1 Hz - - 0;
+#X msg 180 165 \$1 20;
+#X obj 180 194 line~;
+#X obj 180 22 loadbang;
+#X msg 180 51 69;
+#X obj 180 320 osc~;
+#X obj 162 359 *~;
+#X obj 69 199 sig~ 1;
+#X obj 69 233 /~;
+#X obj 69 262 powtodb~;
+#X obj 69 291 dbtorms~;
+#X obj 162 476 *~;
+#X obj 212 399 hsl 101 19 0 1 0 0 empty empty Volume -2 -8 0 12 #a5faff
+#000000 #ffffff 0 1;
+#X msg 209 423 \$1 20;
+#X obj 209 447 line~;
+#X obj 162 515 dac~ 1 2;
+#X obj 69 320 clip~ 0.1 1;
+#X text 335 227 pow = 1/f;
+#X text 19 320 [1] ->;
+#X text 295 267 [1] Limit the amplitude modulation \, so it doesn't
+go below -20 dB. Change the lower limit to your liking.;
+#X text 295 327 https://en.wikipedia.org/wiki/Pink_noise;
+#X text 295 347 https://en.wikipedia.org/wiki/Equal-loudness_contour
+;
+#X text 295 167 Amplitude is set so that the power spectral density
+is inversely proportional to the frequency of the signal (Similar to
+Pink Noise).;
+#X text 285 107 Low-effort equal-loudness oscillator –––;
+#X text 295 127 An attempt to make the loudness of an oscillator sound
+the same at all frequencies.;
+#X text 285 307 References –––;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 7 0;
+#X connect 4 0 10 1;
+#X connect 5 0 6 0;
+#X connect 6 0 0 0;
+#X connect 7 0 8 1;
+#X connect 8 0 13 0;
+#X connect 9 0 10 0;
+#X connect 10 0 11 0;
+#X connect 11 0 12 0;
+#X connect 12 0 18 0;
+#X connect 13 0 17 0;
+#X connect 13 0 17 1;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;
+#X connect 16 0 13 1;
+#X connect 18 0 8 0;
