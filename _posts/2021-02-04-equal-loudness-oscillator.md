@@ -20,4 +20,5 @@ Amplitude is set so that the power spectral density is inversely proportional to
 
 ### References
 - [https://en.wikipedia.org/wiki/Pink_noise](https://en.wikipedia.org/wiki/Pink_noise)
-- [https://en.wikipedia.org/wiki/Equal-loudness_contour](https://en.wikipedia.org/wiki/Equal-loudness_contour)  
+- [https://en.wikipedia.org/wiki/Equal-loudness_contour](https://en.wikipedia.org/wiki/Equal-loudness_contour)
+- [iemmatrix's mtx_phon_curve](https://git.iem.at/pd/iemmatrix)

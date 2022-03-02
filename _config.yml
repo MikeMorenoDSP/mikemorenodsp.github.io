@@ -59,7 +59,7 @@ plugins:
 author:
   name   : "Miguel Moreno"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Audio Programmer, Sound Design & Educator."
+  bio    : "Audio Programmer, Sound Designer & Educator."
   email: mikemorenodsp@gmail.com
   links:
     - label: "GitHub"
