@@ -1,6 +1,10 @@
 ---
 title: EP-MK1 Documentation
-tags: [plugins]
+tags:
+- plugins
+- documentation
+- synthesis
+- physical modelling
 ---
 EP-MK1 is a synthesized electric piano made with Pure Data and Camomile.
 
