@@ -52,7 +52,7 @@ Finally, this instrument can be turned into a snare drum by adding snares using 
 ## 7. Conclusion
 Although `[mymembrane~]` can provide some realistic acoustic drum sounds, the parameters could be reworked for easier sound design. For example, adding real physical-modelling variables such as tension and a variety of excitation sources like different drum sticks.
 
-This instrument is currently available for download at the pd-mkmr repository: [https://github.com/MikeMorenoAudio/pd-mkmr/tree/master/06-Instruments](https://github.com/MikeMorenoAudio/pd-mkmr/tree/master/06-Instruments) and a demo can be heard here: [https://youtu.be/SpC3t1EVF_Q](https://youtu.be/SpC3t1EVF_Q).
+This instrument is currently available for download at the pd-mkmr repository, under the instruments folder: [https://github.com/MikeMorenoDSP/pd-mkmrs](https://github.com/MikeMorenoDSP/pd-mkmr) and a demo can be heard here: [https://youtu.be/SpC3t1EVF_Q](https://youtu.be/SpC3t1EVF_Q).
 
 ### References
 - [Universal Audio - Allpass Filters](https://www.uaudio.com/blog/allpass-filters/)
