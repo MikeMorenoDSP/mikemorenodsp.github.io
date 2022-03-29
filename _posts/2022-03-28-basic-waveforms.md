@@ -80,3 +80,4 @@ Here are some libraries with band-limited oscillators:
 - [Alexandros Drymonitis - Making VCOs in Pure Data](http://drymonitis.me/wp-content/uploads/2016/02/making_VCOs_in_pure_data.pdf)
 - [Johannes Kreidler - Wave shaping](http://www.pd-tutorial.com/english/ch03s05.html)
 - [Miller Puckette - Classical waveforms](http://msp.ucsd.edu/techniques/latest/book-html/node184.html)
+- [FLOSS Manual - Generating waveforms](http://archive.flossmanuals.net/pure-data/audio-tutorials/generating-waveforms.html)
