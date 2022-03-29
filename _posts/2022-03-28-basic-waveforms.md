@@ -53,7 +53,7 @@ Finally, normalization is done by multiplying by 4 (`*~ 4`) and subtracting 1 (`
 {: style="text-align: center;"}
 
 ## Implementation
-Looking at the conventional subtractive synthesizer structure, it is notorious to see that a single oscillator can produce several waveforms, but it only has one pitch control. That being said, it recommended using a single `phasor~` object with all the wave shaping processes in parallel instead of one `phasor~` per waveform. This way it is true to the "one pitch control, several waveforms" can often see in synthesizers.
+Looking at the conventional subtractive synthesizer structure, it is notorious to see that a single oscillator can produce several waveforms, but it only has one pitch control. That being said, it's best practice using a single `phasor~` object with all the wave shaping processes in parallel instead of one `phasor~` per waveform. This way, we can achieve the "one pitch control, several waveforms" paradigm one can often see in synthesizers.
 
 Another thing one can add to save some CPU is to use the `switch~` object to turn off the DSP on the wave-shaper's sub-patches that are not in use.
 
