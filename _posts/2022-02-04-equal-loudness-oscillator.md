@@ -13,10 +13,12 @@ Amplitude is set so that the power spectral density is inversely proportional to
 
 > pow = 1/f
 
+![equal-loudness-oscillator](/assets/images/2022-02-04-equal-loudness-oscillator.png)
+
+### Download
+
 [Download Patch](https://raw.githubusercontent.com/MikeMorenoDSP/mikemorenodsp.github.io/main/assets/patches/equal-loudness-oscillator.pd)
 {: style="text-align: center;"}
-
-![equal-loudness-oscillator](/assets/images/equal-loudness-oscillator.png)
 
 ### References
 - [https://en.wikipedia.org/wiki/Pink_noise](https://en.wikipedia.org/wiki/Pink_noise)

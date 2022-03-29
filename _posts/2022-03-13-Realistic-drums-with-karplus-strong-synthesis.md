@@ -1,6 +1,8 @@
 ---
 title: Realistic drums with karplus-strong synthesis
-excerpt: "Documentation on [mymembrane~], an algorithm to synthesize realistic drum sounds." 
+excerpt: "Documentation on [mymembrane~], an algorithm to synthesize realistic drum sounds."
+toc: true
+toc_sticky: true
 tags:
 - documentation
 - dsp
@@ -54,7 +56,7 @@ Although `[mymembrane~]` can provide some realistic acoustic drum sounds, the pa
 
 This instrument is currently available for download at the pd-mkmr repository, under the instruments folder: [https://github.com/MikeMorenoDSP/pd-mkmrs](https://github.com/MikeMorenoDSP/pd-mkmr) and a demo can be heard here: [https://youtu.be/SpC3t1EVF_Q](https://youtu.be/SpC3t1EVF_Q).
 
-### References
+## References
 - [Universal Audio - Allpass Filters](https://www.uaudio.com/blog/allpass-filters/)
 - [Julius O. Smith - Allpass Two Combs](https://ccrma.stanford.edu/~jos/pasp/Allpass_Two_Combs.html)
 - [Julius O. Smith - Extended Karplus Strong Algorithm](https://ccrma.stanford.edu/~jos/pasp/Extended_Karplus_Strong_Algorithm.html)
