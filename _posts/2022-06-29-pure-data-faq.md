@@ -15,6 +15,7 @@ These are the Frequently Asked Questions on the [Pure Data Discord Server](https
 5.  [Which libraries should I download?](#which-libraries-should-i-download)
 6.  [How do I send audio or MIDI from Pd to another application?](#how-do-i-send-audio-or-midi-from-pd-to-another-application) 
 7.  [How can I render the audio from a pd patch in offline mode?](#how-can-i-render-the-audio-from-a-pd-patch-in-offline-mode)
+8.  [Gem does not work on my macOS](#gem-does-not-work-on-my-macos)
 
 Check other questions on the official Pd FAQ: [https://puredata.info/docs/faq](https://puredata.info/docs/faq)
 
@@ -114,3 +115,7 @@ MIDI:
 
 ##  How can I render the audio from a pd patch in offline mode?
 Send the message `fast-forward $1` to a `send pd` object with the amount of milliseconds you want to render. More info here: [3.fast-forward.pd](https://github.com/porres/Live-Electronics-Tutorial/blob/master/Examples/Part.01-The.Basics/01-Pd.Quickstart/3.fast-forward.pd)
+
+##  Gem does not work on my macOS
+Try an older version of pd vanilla or download a temporary fix here:
+[https://github.com/MikeMorenoDSP/mikemorenodsp.github.io/releases/tag/gem](https://github.com/MikeMorenoDSP/mikemorenodsp.github.io/releases/tag/gem)
