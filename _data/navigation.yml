@@ -3,5 +3,9 @@ main:
     url: /posts/
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Online Lessons"
+    url: /lessons/
+  - title: "Plug-ins"
+    url: https://mikemorenodsp.gumroad.com/
   - title: "About"
     url: /about/
