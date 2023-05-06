@@ -3,8 +3,8 @@ main:
     url: /posts/
   - title: "Portfolio"
     url: /portfolio/
-  - title: "Online Lessons"
-    url: /lessons/
+  - title: "Learning"
+    url: /learning/
   - title: "Plug-ins"
     url: https://mikemorenodsp.gumroad.com/
   - title: "About"
