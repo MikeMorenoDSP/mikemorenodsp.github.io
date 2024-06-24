@@ -1,0 +1,75 @@
+{
+  "basics": {
+    "name": "Miguel Moreno ",
+    "label": "Audio Programmer",
+    "image": "",
+    "email": "mikemorenodsp@gmail.com",
+    "url": "https://mikemorenodsp.github.io",
+    "summary": "Passionate about discovering both old and new methods of creating technology with a musical and artistic focus."
+  },
+  "work": [
+    {
+      "name": "Tec de Monterrey, Monterrey Campus",
+      "location": "Monterrey, Mexico",
+      "position": "Adjunct Teacher",
+      "url": "https://example.com",
+      "startDate": "2021",
+      "endDate": "2024",
+      "summary": "Taught several courses for creative studies majors, specializing in music technology.",
+      "highlights": ["Audio Programming", "Audio Engineering", "Post-Production for audio", "Music production", "Ear Training" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto Tecnológico y de Estudios Superiores de Monterrey",
+      "location": "Monterrey, Mexico",
+      "url": "https://tec.mx/en",
+      "area": "Audio Engineering & Music Production",
+      "studyType": "BS",
+      "startDate": "2011",
+      "endDate": "2016",
+      "score": "8.9"
+    }
+  ],
+
+  "certificates": [
+    {
+      "name": "JUCE Audio Plugin Development Course",
+      "date": "2024",
+      "issuer": "Ear Candy Technologies",
+      "url": "https://earcandytech.com/learning"
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    },
+    {
+      "language": "German",
+      "fluency": "A1",
+      "icon": ""
+    }
+  ],
+  
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Pure Data",
+        "C++",
+        "Max MSP",
+        "Super Collider",
+        "Faust"
+      ]
+    }
+  ]
+}
