@@ -1,0 +1,10 @@
+github_users:
+  - mikemorenodsp
+
+repo_description_lines_max: 2
+
+github_repos:
+  - mikemorenodsp/lira-8
+  - mikemorenodsp/pd-mkmr
+  - mikemorenodsp/shint
+  - mikemorenodsp/ep-mk1
