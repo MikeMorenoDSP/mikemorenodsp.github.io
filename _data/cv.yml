@@ -1,0 +1,87 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Name
+      value: Miguel Moreno 
+    - name: Languages
+      value: Native English, Native Spanish, A1 German
+    - name: Profile
+      value: Audio Engineer, Programmer, Sound Designer & Educator
+
+- title: Education
+  type: time_table
+  contents:
+    - title: B.S. in Digital Music Production Engineering
+      institution: Instituto Tecnológico y de Estudios Superiores de Monterrey
+      year: 2016
+      description: Graduate of one of the first Digital Music Production Engineering programs in Latin America, specialized in Music Technology.
+  
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Adjunct Professor 
+      institution: Instituto Tecnológico y de Estudios Superiores de Monterrey
+      year: 2021 - Present
+      description:
+      - Adjunct Professor for the B.A. in Music Technology and Production program at Monterrey Campus [<a href="https://tec.mx/en/creative-studies/ba-in-music-technology-and-production">Link</a>]. <br>  <b>Courses taught:</b> Music production, Ear Training, Audio Engineering, Audio Programming, Sound Design, Audio Post-Production <br> <b>Courses designed:</b> Audio Programming, Theory and Practice of Sound
+    - title: Lead Audio Programmer
+      institution: Destroy All Circuits
+      year: 2020 - Present
+      description:
+      -  Startup for mobile and hardware music applications focused on circuit bending [<a href="https://www.destroyallcircuits.com/">Link</a>].
+    - title: Audio Programmer, Sound Designer & Consultant
+      institution: Mike Moreno DSP
+      year: 2016 - Present
+      description:
+      - Freelancer specialized in developing and teaching how to create audio applications and plug-ins for computer music.
+    - title: Beta tester and Audio Programmer
+      institution: Arturia Latin-America
+      year: 2016
+      description:
+      -  Beta tester for the V Collection and programmer for a prototype rhythm machine compatible with the Arturia Beatstep Pro [<a href="/portfolio/arturia-internship">Link</a>].
+    - title: Sound and Dialogue Editor 
+      institution: BHD Studios
+      year: 2015
+      description:
+      -  Sound editing in the post-production department for films and short films [<a href="/portfolio/filmography">Link</a>].
+
+- title: Courses
+  type: nested_list
+  contents:
+  - title:   
+    items:
+    - 2024 - JUCE Audio plug-in development course (Ear Candy Technologies)
+    - 2023 - Sound Synthesis with SuperCollider (Rodrigo Zarate)
+    - 2023 - GLSL Reactive Audio Visuals (Dr. Pablo Gomez)
+    - 2023 - CADi - Teaching Creative Software Design (Dr. Jeff Kaiser)
+    - 2023 - CADi - Advanced Mixing Workshop (Pablo Munguia)
+    - 2020 - Beginning C++ Programming online course (Dr. Frank Mitropolus)
+    - 2019 - Intro to Audio Plug-in development (Kadenze Academy)
+    - 2019 - Jazz Improvisation online course (Gary Burton)
+
+- title: Software
+  type: nested_list
+  contents:
+    - title: Programming languages
+      items:
+      - Pure Data - Expert level
+      - Max MSP, gen and RNBO - Expert level
+      - Supercollider - Intermediate level
+      - JUCE & C++ - Intermediate level
+    - title: DAWs
+      items:
+      - Pro Tools - Advanced level
+      - Reaper - Advanced level
+      - Ableton Live - Advanced level
+      - Logic - Intermediate level
+    - title: Mobile prototyping applications
+      items:
+      - MobMuPlat - Expert level
+      - TouchOSC - Intermediate level
+      - Open Stage Control - Intermediate level
+    - title: Other software
+      items:
+      - iZotope RX - Advanced level
+      - Davinci Resolve & Adobe Premiere - Advanced level
+      - Notion - Advanced level
+      - Zoom, Discord, Meet, Teams and OBS - Advanced level
