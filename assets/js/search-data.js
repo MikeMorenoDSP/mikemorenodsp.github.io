@@ -163,6 +163,11 @@ ninja.data = [{
           description: "A private event presenting a set of interactive installations controlled by EEG headbands.",
           section: "Portfolio",handler: () => {
               window.location.href = "/portfolio/neon-scifi-neuro/";
+            },},{id: "portfolio-neurohumanities-lab",
+          title: 'NeuroHumanities Lab',
+          description: "Interactive art installation meant for research on the participant’s emotions through EEG.",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/neurohumanities-lab/";
             },},{id: "portfolio-producer-credits",
           title: 'Producer Credits',
           description: "Music I helped produce or record.",
