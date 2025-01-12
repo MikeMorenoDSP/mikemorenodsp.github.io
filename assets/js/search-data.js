@@ -9,19 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-posts",
-          title: "Posts",
+  },{id: "nav-software",
+          title: "Software",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/posts/index.html";
-          },
-        },{id: "nav-projects",
-          title: "Projects",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/software/";
           },
         },{id: "nav-learning",
           title: "Learning",
@@ -30,12 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/learning/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
+        },{id: "nav-posts",
+          title: "Posts",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/posts/index.html";
+          },
+        },{id: "nav-portfolio",
+          title: "Portfolio",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/portfolio/";
           },
         },{id: "nav-cv",
           title: "CV",
@@ -43,6 +43,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
+          },
+        },{id: "nav-repositories",
+          title: "Repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
           },
         },{id: "post-macos-ux-for-windows",
       
@@ -121,56 +128,81 @@ ninja.data = [{
           window.location.href = "/posts/algorithmic-composition-catarina/";
         
       },
-    },{id: "projects-arturia-internship-2016",
+    },{id: "portfolio-arturia-internship-2016",
           title: 'Arturia Internship (2016)',
           description: "Beta Tester for the V Collection 5 &amp; audio programmer for a drum sampler prototype.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/arturia-internship/";
-            },},{id: "projects-discography",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/arturia-internship/";
+            },},{id: "portfolio-discography",
           title: 'Discography',
           description: "Music I&#39;ve composed for Studio and Live settings by myself or with collaborators.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/discography/";
-            },},{id: "projects-drum-machine-moon-echo-audio",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/discography/";
+            },},{id: "portfolio-drum-machine-moon-echo-audio",
           title: 'Drum Machine - Moon Echo Audio',
           description: "A fully synthesized drum machine custom made for Moon Echo Audio.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/drum-machine-moon-echo-audio/";
-            },},{id: "projects-filmography",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/drum-machine-moon-echo-audio/";
+            },},{id: "portfolio-filmography",
           title: 'Filmography',
           description: "Films and Short Films I&#39;ve worked on as a Sound Editor, Sound Designer or Composer.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/filmography/";
-            },},{id: "projects-kessler-i-2018",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/filmography/";
+            },},{id: "portfolio-kessler-i-2018",
           title: 'Kessler I (2018)',
           description: "Kessler Syndrome is a series of sculptures that reflects on the current state of telecommunications and their effects on how we exchange information.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/kessler-i/";
-            },},{id: "projects-mexsynthco-2019",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/kessler-i/";
+            },},{id: "portfolio-mexsynthco-2019",
           title: 'MexSynthCo 2019',
           description: "Mexico&#39;s first synthesizer convention where I gave a speech about making plugins with Pure Data.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/mexsynthco-2019/";
-            },},{id: "projects-neon-scifi-neuro",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/mexsynthco-2019/";
+            },},{id: "portfolio-neon-scifi-neuro",
           title: 'Neon SciFi - Neuro',
           description: "A private event presenting a set of interactive installations controlled by EEG headbands.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/neon-scifi-neuro/";
-            },},{id: "projects-producer-credits",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/neon-scifi-neuro/";
+            },},{id: "portfolio-producer-credits",
           title: 'Producer Credits',
           description: "Music I helped produce or record.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/producer-credits/";
-            },},{id: "projects-stivn-studios-metaportals",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/producer-credits/";
+            },},{id: "portfolio-stivn-studios-metaportals",
           title: 'Stivn Studios - MetaPortals',
           description: "Sound Design for a set of NFTs.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/stivn-studios/";
-            },},{id: "projects-teaching-experience",
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/stivn-studios/";
+            },},{id: "portfolio-teaching-experience",
           title: 'Teaching Experience',
           description: "A list of workshops and courses that I have given.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/teaching-experience/";
+          section: "Portfolio",handler: () => {
+              window.location.href = "/portfolio/teaching-experience/";
+            },},{id: "software-euklid",
+          title: 'Euklid',
+          description: "MIDI effect that generates Euclidean Rhythms in real time.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/Euklid/";
+            },},{id: "software-ep-mk1",
+          title: 'EP-MK1',
+          description: "Real-time synthesized model of an Electric Piano built using Pure Data and Camomile.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/ep-mk1/";
+            },},{id: "software-lira-8",
+          title: 'LIRA-8',
+          description: "Digital attempt at emulating SOMA Lab&#39;s Lyra-8 signal flow and sound.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/lira-8/";
+            },},{id: "software-m2p",
+          title: 'M2P',
+          description: "Effect that turns monophonic synthesizers to polyphonic through MIDI and Audio.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/m2p/";
+            },},{id: "software-shin-t",
+          title: 'Shin-T',
+          description: "Polyphonic subtractive synthesizer made in JUCE using the DaisySP library.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/shin-t/";
             },},{
         id: 'social-discord',
         title: 'Discord',
@@ -184,6 +216,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("mailto:%6D%69%6B%65%6D%6F%72%65%6E%6F%64%73%70@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/MikeMorenoDSP", "_blank");
         },
       },{
         id: 'social-instagram',
