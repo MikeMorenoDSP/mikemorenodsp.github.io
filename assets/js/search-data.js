@@ -188,11 +188,21 @@ ninja.data = [{
           description: "MIDI effect that generates Euclidean Rhythms in real time.",
           section: "Software",handler: () => {
               window.location.href = "/software/Euklid/";
+            },},{id: "software-jamp-bleep",
+          title: 'jAmp Bleep',
+          description: "iOS App / AUv3 port of my bleep machine by jAmp",
+          section: "Software",handler: () => {
+              window.location.href = "/software/bleep/";
             },},{id: "software-ep-mk1",
           title: 'EP-MK1',
           description: "Real-time synthesized model of an Electric Piano built using Pure Data and Camomile.",
           section: "Software",handler: () => {
               window.location.href = "/software/ep-mk1/";
+            },},{id: "software-ks-strings-for-organelle",
+          title: 'KS Strings for Organelle',
+          description: "Organelle port of my KS String Synth by Critter &amp; Guitari",
+          section: "Software",handler: () => {
+              window.location.href = "/software/ks-strings/";
             },},{id: "software-lira-8",
           title: 'LIRA-8',
           description: "Digital attempt at emulating SOMA Lab&#39;s Lyra-8 signal flow and sound.",
